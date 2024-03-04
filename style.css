@@ -1,0 +1,31 @@
+#container
+{
+   border: 2px red solid;
+   height: 500px;
+}
+
+
+#container > div
+{
+    height: 100px;
+    width: 100px;
+    color: red;
+    background-color: lavender;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position:relative;
+    top: 50px;
+    left: 30px;
+
+}
+
+body
+{
+    background-color: black;
+}
+
+#dd
+{
+    color: white;
+}
